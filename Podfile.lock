@@ -1,0 +1,29 @@
+PODS:
+  - CTMediator (25)
+  - TRULogining (0.1.0):
+    - TRUNetworking
+  - TRUNetworking (0.1.0)
+
+DEPENDENCIES:
+  - CTMediator
+  - TRULogining (from `Lib/TRULogining`)
+  - TRUNetworking (from `Lib/TRUNetworking`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - CTMediator
+
+EXTERNAL SOURCES:
+  TRULogining:
+    :path: Lib/TRULogining
+  TRUNetworking:
+    :path: Lib/TRUNetworking
+
+SPEC CHECKSUMS:
+  CTMediator: 830c1fc204b3a6abf2a059510c7380f56343da0f
+  TRULogining: e6e4d2356c210517df3a012f877d4ed9474480c0
+  TRUNetworking: dc44d479803c4ae7d70769310d0e38e04adb8d25
+
+PODFILE CHECKSUM: 09887c3d0fb41e5795ccdff3a2801b2302311e5b
+
+COCOAPODS: 1.5.3
